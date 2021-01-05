@@ -1,4 +1,5 @@
 import discord
+import os
 import requests
 from discord.ext.commands import Bot
 import sqlite3
