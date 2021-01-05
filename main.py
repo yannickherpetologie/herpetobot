@@ -6,6 +6,7 @@ import re
 import datetime
 
 client = Bot(command_prefix="!")
+token = os.getenv("DISCORD_BOT_TOKEN")
 
 """ Section Recherche """
 @client.command(pass_context=True)
@@ -174,4 +175,4 @@ async def on_ready():
         print(server.name)
 
 print("Connection en cours...")
-client.run('Nzk1NzczMzI0NTgzMzcwNzgy.X_OPqQ.Wn-mhP8Iv2NO1-dBsi-CdMXsC3I')
+client.run(token)
