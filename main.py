@@ -160,10 +160,6 @@ async def aide(ctx):
     !apv                        Renvoie l'adresse d'asian-pitvipers
     !tch                        Renvoie l'adresse de terrariophilie suisse
     !yblog                      Renvoie l'adresse du blog de yannick
-    
-    -----------------------------------------Humour -----------------------------------------------------------------
-    !addhumour "phrase"         Ajoute la phrase à la liste des phrases "d'humour"
-    !humour                     Sort une phrase aléatoire de la liste.
     ```"""
     await ctx.send(message)
     await ctx.send(message2)
